@@ -46,7 +46,7 @@
       <div class="discoverInfo">
         <h1>Discover Lesotho</h1>
         <hr>
-        <h3>The Mountain Kingdom</h3>
+        <h2>The Mountain Kingdom</h2>
         <div class="info">
           <p>South Africa is a rising star among African nations. <br> But did you know it has a hidden mountian kingdom? <br>
           <button class="btn btn-default" type="submit"><i class="fas fa-mountain"></i> Image Gallery</button>
@@ -63,43 +63,48 @@
          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-        <div id="header-text">
-          <h2>Create an Account to <br> Save Your Trip</h2>
+        <div class="header-text">
+          <h2>Login to Save Your Trip</h2>
         </div>
       </div>
       <div class="modal-body">
         <div class="connected-account">
-          <p class="hint-text">Sign up with your social media account or email address</p>
+          <h4 class="header-text" style="margin: 10px 0">Connect an Account</h4>
           <div class="social-btn text-center">
             <a href="#" class="btn btn-primary btn-lg"><i class="fa fa-facebook"></i> Facebook</a>
             <a href="#" class="btn btn-info btn-lg"><i class="fa fa-twitter"></i> Twitter</a>
             <a href="#" class="btn btn-danger btn-lg"><i class="fa fa-google"></i> Google</a>
           </div>
-          <div class="or-seperator"><b>or</b></div>
-          <div class="form-group">
-            <input type="text" class="form-control input-lg" name="username" placeholder="Username" required="required">
-          </div>
-          <div class="form-group">
-            <input type="email" class="form-control input-lg" name="email" placeholder="Email Address" required="required">
-          </div>
-          <div class="form-group">
-            <input type="password" class="form-control input-lg" name="password" placeholder="Password" required="required">
-          </div>
-          <div class="form-group">
-            <input type="password" class="form-control input-lg" name="confirm_password" placeholder="Confirm Password" required="required">
-          </div>  
-          <div class="form-group">
-              <button type="submit" class="btn btn-success btn-lg btn-block signup-btn">Sign Up</button>
+          <div class="or-seperator"><b></b></div>
+          <form action="/examples/actions/confirmation.php" method="post">
+            <h4 class="header-text" style="margin-bottom: 30px">Create an Account</h4>
+            <div class="form-group">
+              <input type="text" class="form-control input-lg" name="username" placeholder="Username" required="required">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control input-lg" name="email" placeholder="Email Address" required="required">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control input-lg" name="password" placeholder="Password" required="required">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control input-lg" name="confirm_password" placeholder="Confirm Password" required="required">
+            </div>  
+            <div class="form-group">
+                <button type="submit" class="btn btn-success btn-lg btn-block signup-btn">Sign Up</button>
+            </div>
+          </form>
+        <div class="login">
+        <div class="container">
+          <div class="row login-text">
+              <div class="col-sm-8"><h5 style="margin: 0">Already have an account?</h5></div>
+              <div class="col-sm-4" style="display: flex; align-items: center"><h5 style="margin: 0"><a style="display: inline-block" href="#">Login Here</a></h5></div>
           </div>
         </div>
-        <form action="/examples/actions/confirmation.php" method="post">
-          <div><h4>Already have an account?<a href="#">Login here</a></h4></div>
-      </form>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Submit</button>
-      </div>
+    </div>  
+  </div>
+</div>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

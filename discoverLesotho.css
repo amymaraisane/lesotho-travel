@@ -31,11 +31,11 @@ h1 {
 				 0px 18px 23px rgba(0,0,0,0.4);
 }
 
-.discoverInfo h3 {
+.discoverInfo h2 {
 	color: black;
 	font-weight: 1000;
 	text-decoration: bold;
-	font-size: 2rem;
+	font-size: 2.5rem;
 }
 
 hr {
@@ -57,61 +57,22 @@ hr {
 	color: white;
 	vertical-align: top;
 }
+
 .modal-header {
 	display: inline-block;
 }
 
-.modal-header #header-text {
+.header-text {
 	color: black;
-	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 0;
 	text-align: center;
 }
 
 .modal-header button {
 	float: right;
 }
-.form-control {
-	font-size: 16px;
-	transition: all 0.4s;
-	box-shadow: none;
-}
-.form-control:focus {
-	border-color: #5cb85c;
-}
-.form-control, .btn {
-	border-radius: 50px;
-	outline: none !important;
-}
 
-.signup-btn {
-	text-align: center;
-	border-color: #5cb85c;
-	transition: all 0.4s;
-}
-.signup-btn:hover {
-	background: #5cb85c;
-	opacity: 0.8;
-}
-.or-seperator {
-	margin: 50px 0 15px;
-	text-align: center;
-	border-top: 1px solid #e0e0e0;
-}
-.or-seperator b {
-	padding: 0 10px;
-	width: 40px;
-	height: 40px;
-	font-size: 16px;
-	text-align: center;
-	line-height: 40px;
-	background: #fff;
-	display: inline-block;
-	border: 1px solid #e0e0e0;
-	border-radius: 50%;
-	position: relative;
-	top: -22px;
-	z-index: 1;
-}
 .social-btn .btn {
 	color: #fff;
 	margin: 10px 0 0 15px;
@@ -140,4 +101,62 @@ hr {
 	float: left;
 	margin: 3px 10px;
 	font-size: 20px;
+}
+
+.or-seperator {
+	margin-top: 40px;
+	text-align: center;
+	border-top: 1px solid #e0e0e0;
+}
+.or-seperator b {
+	padding: 0;
+	width: 40px;
+	height: 40px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 20px;
+	background: #fff;
+	display: inline-block;
+	border: 1px solid #e0e0e0;
+	border-radius: 50%;
+	position: relative;
+	top: -22px;
+	z-index: 1;
+}
+
+.form-control {
+	font-size: 16px;
+	transition: all 0.4s;
+	box-shadow: none;
+}
+.form-control:focus {
+	border-color: #5cb85c;
+}
+.form-control, .btn {
+	border-radius: 50px;
+	outline: none !important;
+}
+
+.signup-btn {
+	text-align: center;
+	border-color: #5cb85c;
+	transition: all 0.4s;
+	margin-bottom: 30px;
+}
+.signup-btn:hover {
+	background: #5cb85c;
+	opacity: 0.8;
+}
+
+
+.login {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.login-text {
+	color: black;
+	margin: 0;
+	line-height: 1rem;
 }
