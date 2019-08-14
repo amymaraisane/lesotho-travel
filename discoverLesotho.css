@@ -1,0 +1,143 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: url("https://upload.wikimedia.org/wikipedia/commons/0/04/View_of_Lesotho.jpg");
+	/* Center and scale the image */
+	background-position: center;
+	background-repeat: no-repeat;
+	-moz-background-size: 100% 100%;
+	position: relative;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+  }
+
+#navBarFlag {
+	height: 23px;
+	width: 40px;
+}
+
+.discoverInfo {
+	text-align: center;
+	padding-top: 10%;
+	font-size: 1.5rem;
+}
+h1 {
+	font-weight: 700;
+	font-size: 4em;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.3),
+				 0px 18px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.4);
+}
+
+.discoverInfo h3 {
+	color: black;
+	font-weight: 1000;
+	text-decoration: bold;
+	font-size: 2rem;
+}
+
+hr {
+	width: 500px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0, 0.2); 
+}
+
+.info {
+	color: white;
+	background-color: rgba(0,0,0,.35);
+	max-width: 40rem;
+	margin-top: 2%;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+
+.info button {
+	color: white;
+	vertical-align: top;
+}
+.modal-header {
+	display: inline-block;
+}
+
+.modal-header #header-text {
+	color: black;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.modal-header button {
+	float: right;
+}
+.form-control {
+	font-size: 16px;
+	transition: all 0.4s;
+	box-shadow: none;
+}
+.form-control:focus {
+	border-color: #5cb85c;
+}
+.form-control, .btn {
+	border-radius: 50px;
+	outline: none !important;
+}
+
+.signup-btn {
+	text-align: center;
+	border-color: #5cb85c;
+	transition: all 0.4s;
+}
+.signup-btn:hover {
+	background: #5cb85c;
+	opacity: 0.8;
+}
+.or-seperator {
+	margin: 50px 0 15px;
+	text-align: center;
+	border-top: 1px solid #e0e0e0;
+}
+.or-seperator b {
+	padding: 0 10px;
+	width: 40px;
+	height: 40px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+	background: #fff;
+	display: inline-block;
+	border: 1px solid #e0e0e0;
+	border-radius: 50%;
+	position: relative;
+	top: -22px;
+	z-index: 1;
+}
+.social-btn .btn {
+	color: #fff;
+	margin: 10px 0 0 15px;
+	font-size: 15px;
+	border-radius: 50px;
+	font-weight: normal;
+	border: none;
+	transition: all 0.4s;
+}	
+.social-btn .btn:first-child {
+	margin-left: 0;
+}
+.social-btn .btn:hover {
+	opacity: 0.8;
+}
+.social-btn .btn-primary {
+	background: #507cc0;
+}
+.social-btn .btn-info {
+	background: #64ccf1;
+}
+.social-btn .btn-danger {
+	background: #df4930;
+}
+.social-btn .btn i {
+	float: left;
+	margin: 3px 10px;
+	font-size: 20px;
+}
