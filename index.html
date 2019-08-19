@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- will make bootstrap styled websiteresponsive on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- will make bootstrap styled websiteresponsive on mobile devices -->
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet"> 
@@ -17,37 +17,33 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark" role="navigation">
-  <a class="navbar-brand" href="#"><span><img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Flag_of_Lesotho.svg" alt="lesotho flag" id="navBarFlag"></span>Mountain Kingdom Travel</a>
+  <a class="navbar-brand" href="#"><span id="navSpan"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Flag_of_Lesotho.svg" alt="lesotho flag" id="navBarFlag"></span>Mountain Kingdom Travel</a>
   <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#bs-navbar-demo" aria-expanded="false">
     <span class="navbar-toggler-icon"></span>
   </button>
-
-
-<!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-navbar-demo">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      	<li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-      	<li class="nav-item"><a class="nav-link" href="#">Destinations</a></li>
-      	<li class="nav-item"><a class="nav-link"href="#">Lodging</a></li>
-      </ul>
-      <ul class="nav justify-content-end">
-        <li class="nav-item"><form class="form-inline" role="search">
-   				<input type="search" class="form-control" placeholder="Search" aria-label="Search">
- 			    <button type="submit" class="btn btn-default"><i class="fas fa-search"></i></button>
-		    </form></li>
-      </ul>
-    </div>
+  <div class="collapse navbar-collapse" id="bs-navbar-demo">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Destinations</a></li>
+      <li class="nav-item"><a class="nav-link"href="#">Lodging</a></li>
+    </ul>
+    <ul class="nav justify-content-end">
+      <li class="nav-item"><form class="form-inline" role="search">
+        <input type="search" class="form-control" placeholder="Search" aria-label="Search">
+        <button type="submit" class="btn btn-default"><i class="fas fa-search"></i></button>
+      </form></li>
+    </ul>
+  </div>
   </div>
 </nav>
 
-<div class= "container">
+<div class= "container" id="mainText">
   <div class="row">
-      <div class="discoverInfo col-lg-12">
+      <div class="discoverInfo col-lg-10">
         <h1>Discover Lesotho</h1>
         <hr>
-        <div><h2>The Mountain Kingdom</h2></div>
         <div class="info">
-          <p>South Africa is a rising star among African nations. <br> But did you know it has a hidden mountian kingdom? <br>
+          <p>South Africa's hidden mountain kingdom, rich with history and natural wonders</p>
           <button class="btn btn-default" type="submit"><i class="fas fa-mountain"></i> Image Gallery</button>
         </div>
     </div>
